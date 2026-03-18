@@ -29,7 +29,7 @@ export function Navbar() {
   const location = useLocation();
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 glass-nav h-16">
+    <nav className="fixed top-0 left-0 right-0 z-50 glass-nav h-20">
       <div className="container mx-auto flex h-full items-center justify-between px-4 lg:px-8">
         <Link to="/" className="flex items-center">
           <img src={logoHorizontal} alt="Lumix" className="h-14 w-auto" />
