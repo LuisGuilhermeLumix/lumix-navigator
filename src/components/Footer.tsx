@@ -35,9 +35,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="space-y-4">
-            <Link to="/" className="flex items-center gap-2">
-              <img src={logo} alt="Lumix" className="h-8 w-auto" />
-              <span className="text-lg font-bold gradient-text">LUMIX</span>
+            <Link to="/" className="flex items-center">
+              <img src={logoHorizontal} alt="Lumix" className="h-10 w-auto" />
             </Link>
             <p className="body-text text-sm max-w-xs">
               Automação comercial de alta performance. Tecnologia, IA e estratégia para gerar, qualificar e recuperar vendas.
